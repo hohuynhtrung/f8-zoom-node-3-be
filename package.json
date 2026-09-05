@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "module-alias": "^2.3.4",
+    "mysql2": "^3.24.3"
+  },
+  "script": {
+    "start": "node -r module-alias/register --watch server.js"
+  },
+  "_moduleAliases": {
+    "@": "./src"
+  }
+}
