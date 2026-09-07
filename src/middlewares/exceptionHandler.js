@@ -1,7 +1,5 @@
 const exceptionHandler = (err, req, res, next) => {
-  res.error({
-    message: String(err),
-  });
+  return res.error(500, err.message, err);
 };
 
 module.exports = exceptionHandler;

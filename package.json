@@ -6,7 +6,7 @@
     "module-alias": "^2.3.4",
     "mysql2": "^3.24.3"
   },
-  "script": {
+  "scripts": {
     "start": "node -r module-alias/register --watch server.js"
   },
   "_moduleAliases": {
